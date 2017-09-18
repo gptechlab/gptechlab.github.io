@@ -3,6 +3,22 @@ layout: page
 title: team
 permalink: /team/
 ---
+<style type="text/css">
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover{
+  background-color:#f5f5f5
+}
+</style>
 <ul class="post-list">
   <table>
     <thead>
