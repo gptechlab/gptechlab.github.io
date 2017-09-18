@@ -39,5 +39,11 @@ tr:hover{
       <td><a href='https://gptechlab.github.io/project/2017/09/18/plastic-tracking-app.html'>plastics tracking</a></td>
       <td>Amsterdam, Netherlands</td>
     </tr>
+    <tr>
+      <td>stefan.behnke@greenpeace.org</td>
+      <td>php, RFID tech</td>
+      <td></td>
+      <td>Hamburg, Germany</td>
+    </tr>
   </table>    
 </ul>
