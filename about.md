@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About GP <TL>
+title: about
 permalink: /about/
 ---
 
