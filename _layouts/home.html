@@ -6,12 +6,12 @@ layout: default
     <p>
         Head over to <a href="/about">about</a> to read our remit, <a href="/past">past</a> and <a href="/current">current</a> for projects (also see below) and <a href="/team">team</a> for the members of the team to date and their proficiencies.
     </p>
-    <p style="border-bottom:1px solid grey; padding-bottom: 20px">
+    <p>
       To get in touch with us, please mail techlab@greenpeace.org as we now take requests to look at or exemplify how a piece of tech could be used in the Greenpeace context.
     </p>
     <ul class="post-list">
         {% for post in site.posts %}
-        <li style="border-bottom:1px solid grey; padding-bottom: 20px">
+        <li style="border-top:1px solid grey; padding-top: 20px">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <img src="{{post.img}}" style="float:right;max-height:80px" />
             <span class="post-meta">{{ post.date | date: date_format }}</span>
