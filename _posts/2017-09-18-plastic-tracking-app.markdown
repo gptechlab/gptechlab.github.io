@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Plastic Tracking App"
 date:   2017-09-18 08:51:39 +0200
 categories: app dev done
