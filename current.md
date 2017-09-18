@@ -1,13 +1,14 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: current
+permalink: /current/
 ---
 
 LOREM IPSUM BLABLA
 
 <ul class="post-list">
     {% for post in site.categories.project %}
+      {% if post.tags contains current %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -16,5 +17,6 @@ LOREM IPSUM BLABLA
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
