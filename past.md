@@ -3,9 +3,6 @@ layout: page
 title: past
 permalink: /past/
 ---
-
-LOREM IPSUM BLABLA
-
 <ul class="post-list">
     {% for post in site.categories.project %}
     {% if post.tags contains 'past' %}

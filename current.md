@@ -3,9 +3,6 @@ layout: page
 title: current
 permalink: /current/
 ---
-
-LOREM IPSUM BLABLA
-
 <ul class="post-list">
     {% for post in site.posts %}
       {% if post.tags contains 'current' %}
