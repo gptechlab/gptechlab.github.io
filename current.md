@@ -7,7 +7,7 @@ permalink: /current/
 LOREM IPSUM BLABLA
 
 <ul class="post-list">
-    {% for post in site.categories.project %}
+    {% for post in site.posts %}
       {% if post.tags contains current %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
