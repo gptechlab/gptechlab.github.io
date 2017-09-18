@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GP TechLab <TL>
+title: <TL> TechLab
 permalink: /about/
 ---
 
