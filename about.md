@@ -8,6 +8,6 @@ As leaders of environmental activism we are often busy (seemingly more so these 
 
 You can find the source code for the projects from the <TL> at GitHub:
 
-[GPTechLab]:https://github.com/gptechlab
+[GPTechLab](https://github.com/gptechlab "gptechlab")
 
 
