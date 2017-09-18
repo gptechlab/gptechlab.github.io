@@ -8,7 +8,7 @@ layout: default
     </p>
     <ul class="post-list">
         {% for post in site.posts %}
-        <li style="border-bottom:1px solid grey; padding-bottom: 10px">
+        <li style="border-bottom:1px solid grey; padding-bottom: 20px">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <img src="{{post.img}}" style="float:right;max-height:80px" />
             <span class="post-meta">{{ post.date | date: date_format }}</span>
