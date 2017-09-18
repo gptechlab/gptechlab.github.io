@@ -12,14 +12,14 @@ permalink: /team/
       <th>location</th>
     </thead>
     <tr>
-      <td>[king](mailto:king.ho@greenpeace.org)</td>
-      <td>html,css,js,php,node,c,c++,c#</td>
+      <td>king.ho@greenpeace.org</td>
+      <td>html, css, js, php, node, c, c++, c#</td>
       <td><a href='https://gptechlab.github.io/project/2017/09/18/plastic-tracking-app.html'>plastics tracking</a>, <a href='https://gptechlab.github.io/project/2017/09/18/passbolt.html'>passbolt</a></td>
       <td>Amsterdam, Netherlands</td>
     </tr>
     <tr>
-      <td>[turbo](mailto:torbjorn.zetterlund@greenpeace.org)</td>
-      <td>html,css,js,php,node</td>
+      <td>mailto:torbjorn.zetterlund@greenpeace.org</td>
+      <td>html, css, js, php, node</td>
       <td><a href='https://gptechlab.github.io/project/2017/09/18/plastic-tracking-app.html'>plastics tracking</a></td>
       <td>Amsterdam, Netherlands</td>
     </tr>
