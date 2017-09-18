@@ -1,18 +1,10 @@
 ---
 layout: page
-title: About
+title: GP TechLab <TL>
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+As leaders of environmental activism we are often busy (seemingly more so these days). So much so that often we forget to wander, play and be amazed. Technology is moving forward and new, exciting and innovative ways to campaign present themselves. The global Greenpeace IT community had discussed moving tech into the future at its annual meet. One of the results of the Greenpeace IT Skillshare 2017 was the formation of the GP TechLab; a team to work with and discover new technologies to help save the planet in an entirely new way.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You can find the source code for the projects from the <TL> at GitHub:
+[GPTechLab](https://github.com/gptechlap)
