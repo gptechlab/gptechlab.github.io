@@ -34,7 +34,7 @@ tr:hover{
       <td>Amsterdam, Netherlands</td>
     </tr>
     <tr>
-      <td>mailto:torbjorn.zetterlund@greenpeace.org</td>
+      <td>torbjorn.zetterlund@greenpeace.org</td>
       <td>html, css, js, php, node</td>
       <td><a href='https://gptechlab.github.io/project/2017/09/18/plastic-tracking-app.html'>plastics tracking</a></td>
       <td>Amsterdam, Netherlands</td>
