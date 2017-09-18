@@ -8,7 +8,7 @@ LOREM IPSUM BLABLA
 
 <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.tags contains current %}
+      {% if post.tags contains 'current' %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
