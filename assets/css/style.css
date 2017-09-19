@@ -3,3 +3,6 @@
 .post-list li:nth-child(even) img{
 	float:right;
 }
+.post-list li:nth-child(odd) img{
+	float:left;
+}
