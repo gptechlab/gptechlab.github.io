@@ -1,0 +1,5 @@
+---
+---
+.post-list li:nth-child(even) img{
+	float:right;
+}
