@@ -11,7 +11,7 @@ layout: default
     </p>
     <ul class="post-list">
         {% for post in site.posts %}
-        <li style="height:80px; border-top: 1px solid grey;">
+        <li style="height:80px; border-top: 1px solid rgba(0,0,0,0.2);">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <img src="{{post.img}}" style="max-height:80px" />
             <span class="post-meta">{{ post.date | date: date_format }}</span>
