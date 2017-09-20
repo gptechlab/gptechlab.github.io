@@ -7,8 +7,6 @@ permalink: /remit/
 
 As leaders of environmental activism we are often busy (seemingly more so these days). So much so that often we forget to wander, play and be amazed. Technology is moving forward and new, exciting and innovative ways to campaign present themselves. The global Greenpeace IT community had discussed moving tech into the future at its annual meet. One of the results of the Greenpeace IT Skillshare 2017 was the formation of the GP TechLab; a team to work with and discover new technologies to help save the planet in an entirely new way.
 
-You can find the source code for the projects from the <TL> at <a href='https://github.com/gptechlab'>GPTechLab</a> on github.
-
 The Framework envisioned Greenpeace to become a tech-savvy and tech-efficient organization, that makes the best use of technology to help deliver our mission and organizational goals. At the IT Skillshare (Sept 2017) the IT community felt that we are not moving fast enough to learn and adopt key technologies. Also pilot islands where new technology is applied are often not known by the rest of the organization (within IT or across teams e.g. action / IT / Engagement) so that efforts are duplicated and learnings are repeated in different regions.
 
 ## Project Objectives

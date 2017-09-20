@@ -16,7 +16,7 @@
 title: GP <TL>
 email: techlab@greenpeace.org
 description: > # this means to ignore newlines until "baseurl:"
-  As leaders of environmental activism we are often busy (seemingly more so these days). So much so that often we forget to wander, play and be amazed. Technology is moving forward and new, exciting and innovative ways to campaign present themselves. GP TechLab; a team to work with and discover new technologies to help save the planet in an entirely new way.
+  As leaders of environmental activism we are often busy (seemingly more so these days). So much so that often we forget to wander, play and be amazed. GP TechLab; a team to work with and discover new technologies to help save the planet in an entirely new way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gptechlab
