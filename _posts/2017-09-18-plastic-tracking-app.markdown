@@ -16,16 +16,24 @@ A quick request from our friends over in Investigations had Turbo and King mock 
 The "magic":
 ```
 function postTrash() {
+	//get the type of trash from the UI dropdown list
     typeoftrash = $("#typeoftrash").val();
+
+    //get the brand of the trash from the UI dropdown list
     brand = $("#brand").val();
+
+    //debug line cause, why the hell not, is why?!
     console.log("\nts: " + ts + "\nlat: " + lat + "\nlong: " + long + "\ntypeoftrash: " + typeoftrash + "\nbrand: " + brand);
 
+    //get rid of the form UI and string it together to make it nearly unintelligible in the code.
     $("#tagbox").fadeOut(200, function() { $("#myImage").fadeOut(200, function() { $("#myImage").removeAttr('src'); }) });
 
-    //Add Push to DB here: ;
+    //construct DB reference
     var rootRef = firebase.database().ref();
     var storesRef = rootRef.child('rubbish');
     var newStoreRef = storesRef.push();
+
+    //construct object to send to db
     var tosend = {
         ts: ts,
         lat: lat,
@@ -34,13 +42,15 @@ function postTrash() {
         brand: brand,
         url: "/rubbish/" + newStoreRef.key + ".jpeg"
     }
+
+    //get DB object reference ID
     newStoreRef.set(tosend);
 
+    //construct image reference to send to storage
     storageRef = firebase.storage().ref().child("/rubbish/" + newStoreRef.key + ".jpeg");
     storageRef.putString(base64, 'base64');
+
+    //bring back the starting UI like a boss
     $("#buttonbox").animate({ "top": "50%" }, function() { $("#logopng").animate({ "opacity": 1 }) })
-
-    //Push to Storage
-
 }
 ```
