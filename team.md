@@ -41,13 +41,25 @@ tr:hover{
     <tr>
       <td>torbjorn.zetterlund@greenpeace.org</td>
       <td>html, css, js, php, node</td>
-      <td><a href='https://gptechlab.github.io/project/2017/09/18/plastic-tracking-app.html'>plastics tracking</a></td>
+      <td>
+        {% for post in site.categories.project %}
+        {% if post.tags contains 'tzetterl' %}
+          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a><br>
+        {% endif %}
+        {% endfor %}
+      </td>
       <td>Amsterdam, Netherlands</td>
     </tr>
     <tr>
       <td>stefan.behnke@greenpeace.org</td>
       <td>php, RFID tech</td>
-      <td></td>
+      <td>
+        {% for post in site.categories.project %}
+        {% if post.tags contains 'sbehnke' %}
+          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a><br>
+        {% endif %}
+        {% endfor %}
+      </td>
       <td>Hamburg, Germany</td>
     </tr>
   </table>    
