@@ -18,6 +18,10 @@ th, td {
 tr:hover{
   background-color:#f5f5f5
 }
+.projectlink {
+  background : rgba(0, 132, 0, 0.3);
+  padding:3px;
+}
 </style>
 <ul class="post-list">
   <table>
@@ -33,7 +37,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'kiho' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
+          <a class='projectlink' href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       <td>Amsterdam, Netherlands</td>
