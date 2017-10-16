@@ -20,7 +20,7 @@ tr:hover{
 }
 .projectlink {
   background : rgba(0, 132, 0, 0.3);
-  padding:3px;
+  padding:2px;
 }
 </style>
 <ul class="post-list">
@@ -48,7 +48,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'tzetterl' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
+          <a class='projectlink' href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       </td>
@@ -60,7 +60,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'sbehnke' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
+          <a class='projectlink' href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       </td>
