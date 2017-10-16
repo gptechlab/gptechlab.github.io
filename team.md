@@ -23,6 +23,10 @@ tr:hover{
   padding:2px;
 }
 </style>
+name | proficiencies | projects | location
+--- | --- | --- | ---
+king.ho@greenpeace.org | html, css, js, php, node, c, c++, c# | {% for post in site.categories.project %}{% if post.tags contains 'kiho' %}<a class='projectlink' href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>{% endif %}{% endfor %} | Amsterdam, Netherlands
+
 <div>
   <ul class="post-list">
     <table>
