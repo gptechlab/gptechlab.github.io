@@ -65,3 +65,6 @@ tr:hover{
         {% endfor %}
       </td>
       <td>Hamburg, Germany</td>
+    </tr>
+  </table>    
+</ul>
