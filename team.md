@@ -23,6 +23,7 @@ tr:hover{
   padding:2px;
 }
 </style>
+<div>
 <ul class="post-list">
   <table>
     <thead>
@@ -68,3 +69,9 @@ tr:hover{
     </tr>
   </table>    
 </ul>
+</td>
+</tr>
+</table>
+</ul>
+</div>
+
