@@ -33,7 +33,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'kiho' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a><br>
+          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       <td>Amsterdam, Netherlands</td>
@@ -44,7 +44,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'tzetterl' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a><br>
+          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       </td>
@@ -56,7 +56,7 @@ tr:hover{
       <td>
         {% for post in site.categories.project %}
         {% if post.tags contains 'sbehnke' %}
-          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a><br>
+          <a href='{{ post.url | relative_url }}'>{{ post.title | escape }}</a>
         {% endif %}
         {% endfor %}
       </td>
