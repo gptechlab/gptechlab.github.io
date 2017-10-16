@@ -3,7 +3,7 @@ layout: post
 title:  "Plastic Tracking App"
 date:   2017-09-18 08:51:39 +0200
 categories: project
-tags: [project, plastic, past]
+tags: [project, plastic, past, kiho]
 excerpt_separator: <!--more-->
 img: /assets/plastic_tracker.png
 ---

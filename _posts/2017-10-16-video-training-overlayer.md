@@ -3,7 +3,7 @@ layout: post
 title:  "Video Training Overlayer"
 date:   2017-10-16 23:51:39 +0200
 categories: project
-tags: [project, current]
+tags: [project, current, kiho]
 excerpt_separator: <!--more-->
 img: /assets/video_training_overlayer.png
 ---
