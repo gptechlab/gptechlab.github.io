@@ -230,3 +230,8 @@ where 010.jpg should be replaced with your image name in the same folder as the 
 ('total count:', 5)
 ```
 where the first number is width, second height, third area in mm^2 and the fourth is experimental and a colour-tag followed at the bottom of the list by a final count of all objects
+
+**todo:**
+- properly correct lens distortion using grid-map convex filter in photoshop or gimp
+- allow x and y aligned rulers in image without them being counted in final object count
+- GUI for OSX/Win with drag + drop functionality, output window + option to download csv
