@@ -13,10 +13,9 @@ So as a result of getting lots of samples of plastics from our lovely colleagues
 
 Using a combination of Office Lens to take the pic and flatten it from my phone, run it through the OpenCV library I managed to get a good idea of the sizes as well as the count of each object on the image.
 
-Preparing for the photo: I used a white square envelope (with good straight 90 degree corners) on a distinguishable background to allow for the app to pick up and readjust the photo to "flatten" the image
+Preparing for the photo: I used a white square envelope (with good straight 90 degree corners) on a distinguishable background to allow for the app to pick up and readjust the photo to "flatten" the image.
 
 ![stage](/assets/opencv00.jpg "stage")
-
 
 From your phone: Download and run Office Lens or other lens distortion correction software and align the edge of the white envelope to allow the photo to properly project correct relative distances whether on the side of the image or dead-center.
 
