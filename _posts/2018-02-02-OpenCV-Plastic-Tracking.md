@@ -13,13 +13,13 @@ So as a result of getting lots of samples of plastics from our lovely colleagues
 
 Using a combination of Office Lens to take the pic and flatten it from my phone, run it through the OpenCV library I managed to get a good idea of the sizes as well as the count of each object on the image.
 
-Preparing for the photo: I used a white square envelope (with good straight 90 degree corners) on a distinguishable background to allow for the app to pick up and readjust the photo to "flatten" the image.
+**Preparing for the photo**: I used a white square envelope (with good straight 90 degree corners) on a distinguishable background to allow for the app to pick up and readjust the photo to "flatten" the image.
 
 ![stage](/assets/opencv00.jpg "stage")
 
-From your phone: Download and run Office Lens or other lens distortion correction software and align the edge of the white envelope to allow the photo to properly project correct relative distances whether on the side of the image or dead-center.
+**From your phone:** Download and run Office Lens or other lens distortion correction software and align the edge of the white envelope to allow the photo to properly project correct relative distances whether on the side of the image or dead-center.
 
-Prepare the scripts: I used script-posts found [here](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) and [here](https://www.pyimagesearch.com/2016/02/15/determining-object-color-with-opencv/) to make the following:
+**Prepare the scripts:** I used script-posts found [here](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) and [here](https://www.pyimagesearch.com/2016/02/15/determining-object-color-with-opencv/) to make the following:
 
 object_size.py:
 ```
@@ -211,12 +211,12 @@ class ColorLabeler:
 		return self.colorNames[minDist[1]]
 ```
 
-From the command-line: for these two scripts to be useable you need to install some python packages so run
+**From the command-line:** for these two scripts to be useable you need to install some python packages so run
 ```
 pip install opencv-python imutils numpy scipy
 ```
 
-Then to run it:
+**Then to run it:**
 ```
 python object_size.py --image 010.jpg --width 21.2
 ```
