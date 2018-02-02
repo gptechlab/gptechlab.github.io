@@ -17,6 +17,7 @@ Preparing for the photo: I used a white square envelope (with good straight 90 d
 
 ![stage](/assets/opencv00.jpg "stage")
 
+
 From your phone: Download and run Office Lens or other lens distortion correction software and align the edge of the white envelope to allow the photo to properly project correct relative distances whether on the side of the image or dead-center.
 
 Prepare the scripts: I used script-posts found [here](https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/) and [here](https://www.pyimagesearch.com/2016/02/15/determining-object-color-with-opencv/) to make the following:
