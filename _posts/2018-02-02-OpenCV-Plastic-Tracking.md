@@ -220,4 +220,13 @@ Then to run it:
 ```
 python object_size.py --image 010.jpg --width 21.2
 ```
-where 010.jpg should be replaced with your image name in the same folder as the scripts and the 21.2 should be replaced with the reference object width (the width of the object the furthest left of the screen)
+where 010.jpg should be replaced with your image name in the same folder as the scripts and the 21.2 should be replaced with the reference object width (the width of the object the furthest left of the screen). Your output should show csv output like this:
+```
+21.4837708449 , 21.25 , 358.13935634 , red
+21.5861672381 , 21.290466317 , 359.746048603 , red
+19.9598121722 , 19.5162607906 , 305.29338973 , red
+26.7609333568 , 26.9087838173 , 565.337078992 , red
+22.1637654081 , 22.7910417876 , 396.109757168 , red
+('total count:', 5)
+```
+where the first number is width, second height, third area in mm^2 and the fourth is experimental and a colour-tag followed at the bottom of the list by a final count of all objects
