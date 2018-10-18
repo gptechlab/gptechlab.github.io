@@ -10,6 +10,6 @@ img: /assets/data.png
 ![Big Data](/assets/data.png){:class="img-responsive"}
 
 
-This project focussed on gathering data from air quality monitoring stations. We stored this data in big query alowing us to create forecasts and visualisations more easily. The main tools used where python, big query, jupyter notebooks; pandas and plotly for visualisation and fbprophet for forecasting. The visualistions we created give us insights into historical developements and evolution of temperature and we can then use this to provide a possible outlook of how the future could be. In the process of developing this tool we trained a data model  which can be used in the future as well to gain a deeper understanding. 
+This project focussed on gathering data from air quality monitoring stations. We stored this data in big query allowing us to create forecasts and visualisations more easily. The main tools used where python, big query, jupyter notebooks; pandas and [a link](https://github.com/plotly)plotly for visualisation and fbprophet for forecasting. The visualisations we created give us insights into historical developments and evolution of temperature and we can then use this to provide a possible outlook of how the future could be. In the process of developing this tool we trained a data model  which can be used in the future as well to gain a deeper understanding. 
 
-This gives greenpeace a direct handle for tracking e.g. climate change and global warming and as more data is amassed it will give greater and more stastically backed forecasting for the future.
+This gives Greenpeace a direct handle for tracking e.g. climate change and global warming and as more data is amassed it will give greater and more statistically backed forecasting for the future.
