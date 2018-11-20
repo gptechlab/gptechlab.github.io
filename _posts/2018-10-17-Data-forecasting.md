@@ -14,4 +14,4 @@ This project focussed on gathering data from air quality monitoring stations. We
 
 This gives Greenpeace a direct handle for tracking e.g. climate change and global warming and as more data is amassed it will give greater and more statistically backed forecasting for the future.
 
-Find the code on our [github repository](https://github.com/greenpeace/AQMesh). 
+For more documentation and an installation guide visit our  [github repository](https://github.com/greenpeace/AQMesh). 
