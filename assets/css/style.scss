@@ -6,11 +6,11 @@
 	float:right;
 }
 .post-list li:nth-child(odd) img{
-	float:left;
+	float:right;
 	margin-right: 10px;
 }
 .post-list li:nth-child(odd){
-	text-align: right;
+	text-align: left;
 }
 .post-list>li {
     margin-bottom: 10px;
