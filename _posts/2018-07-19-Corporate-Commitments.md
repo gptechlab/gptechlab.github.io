@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Corporate Commitments Platform"
-date:   2019-07-19 15:30:00 +0200
+date:   2018-07-19 15:30:00 +0200
 categories: project
 tags: [project, pbu, current, kiho, jblackwe, ckirk]
 excerpt_separator: <!--more-->
