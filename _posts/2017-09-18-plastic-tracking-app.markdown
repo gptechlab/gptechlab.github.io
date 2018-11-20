@@ -7,7 +7,7 @@ tags: [project, plastic, past, kiho, tzetterl]
 excerpt_separator: <!--more-->
 img: /assets/plastic_tracker.png
 ---
-![PlasticTracker](/assets/plastic_tracker.png){:class="img-responsive"}
+![PlasticTracker](/assets/plastic_tracker.png)
 
 A quick request from our friends over in Investigations had Turbo and King mock up a tool to track plastic based on brand, location and amount. This was a 3-day turnaround and the project was completed with iOS/Android app and admin web-panel. Ultimately the project was shelved for unknown reasons but the code remains for future reference. See links below for more.
 
