@@ -5,7 +5,7 @@ date:   2018-10-17 15:30:00 +0200
 categories: project
 tags: [project, current, jblackwe, fkrautga, kiho]
 excerpt_separator: <!--more-->
-img: /assets/bq.jpg
+img: /assets/bq.png
 ---
 ![Big Data](/assets/data.png){:class="img-responsive"}
 
