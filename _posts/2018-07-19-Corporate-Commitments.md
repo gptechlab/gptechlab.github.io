@@ -7,7 +7,7 @@ tags: [project, pbu, current, kiho, jblackwe, ckirk]
 excerpt_separator: <!--more-->
 img: /assets/CC.png
 ---
-![Corporate Commitments Platform](/assets/CC.png){:class="img-responsive"}
+![Corporate Commitments Platform](/assets/CC.png){:class="full-img-responsive"}
 
 For this platform to really succeed we aimed to adapt to any user input or feedback that we receive as ultimately it will be the user who will have to navigate the site. So user-friendliness is our aim here.
 
